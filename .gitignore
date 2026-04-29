@@ -1,0 +1,8 @@
+\fiche_cnn_mlp.md
+\.venv
+\__pycache__
+\data
+\number.eps
+\number.png
+\test.py
+\preprocessed_image.png
