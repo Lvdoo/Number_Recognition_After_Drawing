@@ -91,7 +91,7 @@ def display() :
         if prediction_job is not None:
             window.after_cancel(prediction_job)
 
-        prediction_job = window.after(20, predict_number)
+        prediction_job = window.after(50, predict_number)
 
     drawing_square.bind("<Button-1>", start_drawing)
     drawing_square.bind("<B1-Motion>", drawing)
